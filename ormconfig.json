@@ -5,6 +5,7 @@
   "username": "root",
   "password": "Mdp@2020",
   "database": "typeOrmMDB",
+  "connectTimeout": 100000,
   "synchronize": true,
   "logging": false,
   "entities": ["src/entity/**/*.ts"],
